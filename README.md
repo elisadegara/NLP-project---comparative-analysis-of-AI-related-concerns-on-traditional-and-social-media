@@ -1,4 +1,4 @@
-# NLP-project - comparative-analysis-of-AI-related-concerns-on-traditional-and-social-media
+# NLP-project: comparative analysis of AI-related concerns on traditional and social media
 
  We investigate public concerns about artificial intelligence (AI) by comparing their expression in traditional and social media.
  Using a curated set of English-language news articles and tweets from X (formerly Twitter), we isolated negatively framed content. For tweets, we manually annotated posts and fine-tuned a sentiment classifier (Twitter-RoBERTa) to extract negative opinions. We then applied three topic modeling methods (LDA, NMF, SVD) to both corpora. Based on coherence scores and interpretability, we selected NMF and manually refined its output into a taxonomy of concerns.
